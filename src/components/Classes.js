@@ -135,12 +135,7 @@ const Classes = () => {
               <li key={index}>{course}</li>
           ))}
         </ul>
-        <h2>Relevant Online Coursework</h2>
-        <ul className="classes-list">
-          {onlineClasses.map((course, index) => (
-              <li key={index}>{course}</li>
-          ))}
-        </ul>
+
       </section>
   );
 };
