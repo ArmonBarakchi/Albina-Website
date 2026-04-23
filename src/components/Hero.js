@@ -49,8 +49,7 @@ function Hero() {
           </h2>
         </div>
         <p className="blurb">
-          Trained in electrical engineering. Focused on using my cross-disciplinary background to create elegant
-          solutions to complex problems.
+          Trained in quantitative finance. Focused on translating geopolitical change into market insight across global economies.
         </p>
         <a href="/projects" className="cta-button">My Work</a>
       </div>
