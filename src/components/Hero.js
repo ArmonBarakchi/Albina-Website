@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./Hero.css";
 
-const TITLES = ["Software Developer.", "Controls Engineer.", "Quantitative Analyst."];
+const TITLES = ["Financial Analyst", "Quantitative Analyst"];
 const TYPE_SPEED = 100;
 const DELETE_SPEED = 60;
 const PAUSE_AFTER_TYPE = 1500;
@@ -56,7 +56,7 @@ function Hero() {
       </div>
 
       <div className="hero-image">
-        <img src="/images/profile.jpeg" alt="Profile" />
+        <img src="/images/profile.png" alt="Profile" />
       </div>
     </section>
   );

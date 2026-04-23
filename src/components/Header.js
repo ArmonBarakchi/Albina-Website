@@ -5,7 +5,7 @@ import { FaLinkedin } from 'react-icons/fa';
 
 
 function Header() {
-  const fullText = "Armon Barakchi";
+  const fullText = "Albina Ananyan";
   const [displayedText, setDisplayedText] = useState("");
   const [showCursor, setShowCursor] = useState(true);
   const indexRef = useRef(0);
@@ -48,7 +48,7 @@ function Header() {
         <a href="/">Home</a>
         <a href="/projects">Projects</a>
         <a
-            href="https://www.linkedin.com/in/armon-barakchi"
+            href="https://www.linkedin.com/in/albinaananyan/"
             target="_blank"
             rel="noopener noreferrer"
             style={{display: 'flex', alignItems: 'center'}}
@@ -56,9 +56,8 @@ function Header() {
           <FaLinkedin size={20} style={{marginRight: '4px'}}/>
           LinkedIn
         </a>
-        <a href="https://github.com/ArmonBarakchi" target="_blank" rel="noopener noreferrer">GitHub</a>
         <a href="/about">About Me</a>
-        <a href="/images/ArmonBarakchiResume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+        <a href="/images/AlbinaResume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
         <a href="/contact">Contact</a>
 
       </nav>
