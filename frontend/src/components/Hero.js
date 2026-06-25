@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./Hero.css";
 
-const TITLES = ["Software Developer.", "Controls Engineer.", "Quantitative Analyst."];
+const TITLES = ["Financial Analyst", "Quantitative Analyst"];
 const TYPE_SPEED = 100;
 const DELETE_SPEED = 60;
 const PAUSE_AFTER_TYPE = 1500;
@@ -49,14 +49,13 @@ function Hero() {
           </h2>
         </div>
         <p className="blurb">
-          Trained in electrical engineering. Focused on using my cross-disciplinary background to create elegant
-          solutions to complex problems.
+          Trained in quantitative finance. Focused on translating geopolitical change into market insight across global economies.
         </p>
         <a href="/projects" className="cta-button">My Work</a>
       </div>
 
       <div className="hero-image">
-        <img src="/images/profile.jpeg" alt="Profile" />
+        <img src="/images/profile.png" alt="Profile" />
       </div>
     </section>
   );

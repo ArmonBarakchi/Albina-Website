@@ -11,13 +11,13 @@ const Projects = () => {
 
           <div className="project-card">
             <div className="project-info">
-              <h2>Visual-Inertial SLAM</h2>
-              <p>Simultaneous Localization and Mapping Via Extended Kalman Filters</p>
-              <a className="read-more" href="/project/VISLAM">Read More →</a>
+              <h2>Ferrari Evauluation</h2>
+              <p> insert description here </p>
+              <a className="read-more" href="/project/ferrari">Read More →</a>
             </div>
             <a
                 className="github-link"
-                href="https://github.com/ArmonBarakchi/Visual-Inertial-Slam/tree/main"
+                href="https://github.com/albina-ananyan/ferrari-equity-valuation"
                 target="_blank"
                 rel="noopener noreferrer"
             >
@@ -27,13 +27,13 @@ const Projects = () => {
 
           <div className="project-card">
             <div className="project-info">
-              <h2>LiDAR-Based SLAM</h2>
-              <p>Simultaneous Localization and Mapping using LiDAR measurements</p>
-              <a className="read-more" href="/project/LIDAR">Read More →</a>
+              <h2>Nvidia Geopolitical Risk Analysis</h2>
+              <p> insert description here </p>
+              <a className="read-more" href="/project/nvidia">Read More →</a>
             </div>
             <a
                 className="github-link"
-                href="https://github.com/ArmonBarakchi/LiDAR-BASED-SLAM"
+                href="https://github.com/albina-ananyan/nvidia-geopolitical-risk-analysis"
                 target="_blank"
                 rel="noopener noreferrer"
             >
@@ -43,23 +43,13 @@ const Projects = () => {
 
           <div className="project-card">
             <div className="project-info">
-              <h2>Lyapunov Analysis of Market Relative Wealth Via Hybrid Switching Diffusions</h2>
-              <p> Used stochastic barrier functions and hybrid switching diffusions to establish rigorous probability
-                guarantees on relative performance of a portfolio against a benchmark index.</p>
-              <a className="read-more" href="/project/hybridwealth">Read More →</a>
-            </div>
-
-          </div>
-
-          <div className="project-card">
-            <div className="project-info">
-              <h2>3D Orientation Tracking</h2>
-              <p>Robot orientation tracking and panorama construction from IMU and camera data</p>
-              <a className="read-more" href="/project/orientation">Read More →</a>
+              <h2>Exxon Mobile Mid-Cycle Valuation</h2>
+              <p> insert description here </p>
+              <a className="read-more" href="/project/exxon">Read More →</a>
             </div>
             <a
                 className="github-link"
-                href="https://github.com/ArmonBarakchi/Orientation-Track-from-Sensor-Data"
+                href="https://github.com/albina-ananyan/exxonmobil-mid-cycle-valuation"
                 target="_blank"
                 rel="noopener noreferrer"
             >
@@ -69,13 +59,13 @@ const Projects = () => {
 
           <div className="project-card">
             <div className="project-info">
-              <h2>Options Pricing Models</h2>
-              <p>Interactive GUI that uses various models to price options of NYSE stocks</p>
-              <a className="read-more" href="/project/options">Read More →</a>
+              <h2>MW Petroleum Real Options Valuation</h2>
+              <p> insert description here </p>
+              <a className="read-more" href="/project/mwpet">Read More →</a>
             </div>
             <a
                 className="github-link"
-                href="https://github.com/ArmonBarakchi/OptionsPricingModels"
+                href="https://github.com/albina-ananyan/mw-petroleum-real-options-valuation"
                 target="_blank"
                 rel="noopener noreferrer"
             >
@@ -85,13 +75,13 @@ const Projects = () => {
 
           <div className="project-card">
             <div className="project-info">
-              <h2>LineBot</h2>
-              <p>A robot car that follows a black line</p>
-              <a className="read-more" href="/project/LineBot">Read More →</a>
+              <h2>Foreign Exchange VaR and Liquidity Risk Analysis</h2>
+              <p> insert description here </p>
+              <a className="read-more" href="/project/fx">Read More →</a>
             </div>
             <a
                 className="github-link"
-                href="https://github.com/ArmonBarakchi/LineBot/blob/main/LineBot.ino"
+                href="https://github.com/albina-ananyan/fx-var-and-liquidity-risk-analysis"
                 target="_blank"
                 rel="noopener noreferrer"
             >
@@ -101,23 +91,20 @@ const Projects = () => {
 
           <div className="project-card">
             <div className="project-info">
-              <h2>Papillary Thyroid Carcinoma Paper</h2>
-              <p>Published paper about the role of fungal and archaeal microbes in different subtypes and genders of
-                Papillary Thyroid Carcinoma </p>
-              <a className="read-more" href="/project/Transcriptomic">Read More →</a>
+              <h2>REIT Return and Volatility Forecasting</h2>
+              <p> insert description here </p>
+              <a className="read-more" href="/project/reit">Read More →</a>
             </div>
-
+            <a
+                className="github-link"
+                href="https://github.com/albina-ananyan/reit-volatility-forecasting"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+              GitHub →
+            </a>
           </div>
 
-          <div className="project-card">
-            <div className="project-info">
-              <h2>Head and Neck Cancer Paper</h2>
-              <p>Published paper about the role of HPV oncoproteins on the prognosis of Head and Neck Squamous Cell
-                Carcinoma </p>
-              <a className="read-more" href="/project/E6">Read More →</a>
-            </div>
-
-          </div>
 
         </div>
       </main>
