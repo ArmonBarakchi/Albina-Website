@@ -30,17 +30,7 @@ const REIT = () => {
                   </p>
               </section>
 
-              <section className="project-section">
-                  <h2>Read the Paper</h2>
-                  <a
-                      className="github-button"
-                      href="/images/quad.pdf"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                  >
-                      Open PDF →
-                  </a>
-              </section>
+
           </div>
 
 

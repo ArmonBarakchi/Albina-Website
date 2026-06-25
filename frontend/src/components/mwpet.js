@@ -34,7 +34,7 @@ const MWPET = () => {
                   <h2>Read the Paper</h2>
                   <a
                       className="github-button"
-                      href="/images/quad.pdf"
+                      href="/images/mw_petroleum_valuation_report.pdf"
                       target="_blank"
                       rel="noopener noreferrer"
                   >

@@ -34,7 +34,7 @@ const FX = () => {
                   <h2>Read the Paper</h2>
                   <a
                       className="github-button"
-                      href="/images/quad.pdf"
+                      href="/images/credit_general_risk_management_memo.pdf"
                       target="_blank"
                       rel="noopener noreferrer"
                   >
