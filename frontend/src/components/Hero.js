@@ -49,7 +49,7 @@ function Hero() {
           </h2>
         </div>
         <p className="blurb">
-          Trained in quantitative finance. Focused on translating geopolitical change into market insight across global economies.
+          Trained in quantitative finance. Focused on where markets, behavior, and geopolitics collide.
         </p>
         <a href="/projects" className="cta-button">My Work</a>
       </div>
