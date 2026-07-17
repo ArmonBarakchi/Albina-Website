@@ -44,7 +44,7 @@ const NVDA = () => {
                   <h2>Read the Paper</h2>
                   <a
                       className="github-button"
-                      href="/images/quad.pdf"
+                      href="/images/nvidia_geopolitical_risk_report.pdf"
                       target="_blank"
                       rel="noopener noreferrer"
                   >
