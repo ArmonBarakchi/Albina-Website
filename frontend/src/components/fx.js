@@ -19,6 +19,9 @@ const FX = () => {
               <section className="project-section">
                   <h2>Overview</h2>
                   <p>
+                        This project analyzes the 1995 Crédit Général, S.A. case, in which a bank guaranteed a price on a £1 billion currency trade, only to watch the sterling market evaporate mid-execution. 
+                        
+                        I trace how a routine value-at-risk model failed to warn of the actual loss, and recommend how the bank should handle its remaining £700 million exposure overnight.
 
                   </p>
               </section>
@@ -26,7 +29,10 @@ const FX = () => {
               <section className="project-section">
                   <h2>How It Works</h2>
                   <p>
-
+                        I calculate one-day and ten-day VaR from three years of historical price data, then compare these figures against the realized and unrealized losses the bank actually took. 
+                        
+                        The gap between the two reveals what VaR captures and what it misses: price volatility, not liquidity risk. From there, I weigh five ways to cut the exposure, from full liquidation to holding the position overnight, and run a sensitivity analysis across liquidation sizes to find the split between spot sales and a cross-currency hedge that cuts tail risk without excessive execution cost.
+                        
                   </p>
               </section>
 
