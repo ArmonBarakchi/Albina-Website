@@ -35,14 +35,17 @@ const FERRARI = () => {
                   <p>
                         The analysis combines industry research with a full financial model.
 
-                            * Research foundation: Draws on IEA and BloombergNEF data on global EV adoption and China's dominance of battery production, plus Bain & Company's luxury goods market outlook, to identify the risks facing Ferrari's brand.
+                        <ul>
+                            <li> Research foundation: Draws on IEA and BloombergNEF data on global EV adoption and China's dominance of battery production, plus Bain & Company's luxury goods market outlook, to identify the risks facing Ferrari's brand.</li>
 
-                            * Financial modeling: Projects Ferrari's revenue, R&D, EBIT, taxes, invested capital, and working capital from 2026 to 2035, using Ferrari's 2015-2025 financial filings. The model treats the BEV rollout as a transition period, marked by rising BEV mix and margin pressure, followed by a stabilization period at steady-state luxury margins.
+                            <li> Financial modeling: Projects Ferrari's revenue, R&D, EBIT, taxes, invested capital, and working capital from 2026 to 2035, using Ferrari's 2015-2025 financial filings. The model treats the BEV rollout as a transition period, marked by rising BEV mix and margin pressure, followed by a stabilization period at steady-state luxury margins.</li>
 
-                            * Valuation: Discounts projected free cash flow to the firm using a WACC built from CAPM (beta, market risk premium, risk-free rate) and a terminal growth rate, producing an intrinsic value per share.
+                            <li> Valuation: Discounts projected free cash flow to the firm using a WACC built from CAPM (beta, market risk premium, risk-free rate) and a terminal growth rate, producing an intrinsic value per share.</li>
 
-                            * Stress testing: Sensitizes the valuation to changes in EBIT margin, beta, terminal growth, and WACC, showing how much the overvaluation conclusion depends on assumptions about brand durability.
-                            
+                            <li> Stress testing: Sensitizes the valuation to changes in EBIT margin, beta, terminal growth, and WACC, showing how much the overvaluation conclusion depends on assumptions about brand durability.</li>
+
+                        </ul>
+
                   </p>
               </section>
 
