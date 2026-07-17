@@ -33,12 +33,16 @@ const FERRARI = () => {
               <section className="project-section">
                   <h2>How It Works</h2>
                   <p>
-                        Armon's the best boyfriendThis project presents a full-stack autonomous quadrotor navigation system that solves the problem of safe waypoint navigation in unknown, obstacle-rich environments using only onboard sensing. The drone discovers them online through a simulated spinning LiDAR and must navigate safely in real time.
+                        The analysis combines industry research with a full financial model.
 
-                        Four subsystems are integrated into a layered pipeline running at 500 Hz. A Multiplicative Unscented Kalman Filter on SE(3) fuses noisy IMU and GPS measurements to estimate the drone's position, velocity, attitude, and sensor biases. A simulated 648-ray LiDAR builds a local obstacle map online using MuJoCo raycasting. Real-Time Adaptive A* (RTAA*) replans a collision-free path at 5 Hz using only the current LiDAR map, with no global map required. A Control Barrier Function safety filter runs as a quadratic program at every control step, formally guaranteeing the drone remains outside all detected obstacle safety radii regardless of planning approximation or estimation error.
+                            * Research foundation: Draws on IEA and BloombergNEF data on global EV adoption and China's dominance of battery production, plus Bain & Company's luxury goods market outlook, to identify the risks facing Ferrari's brand.
 
-                        The result is a complete autonomous navigation stack. The system is validated across four qualitatively distinct maps — a narrow corridor, a dense column forest, a sequence of gate frames, and a rising spiral — demonstrating that the planner and safety filter are both necessary and complementary: RTAA* resolves the local minima that defeat CBF-only navigation, while the CBF catches the safety violations that slip past the planner.
+                            * Financial modeling: Projects Ferrari's revenue, R&D, EBIT, taxes, invested capital, and working capital from 2026 to 2035, using Ferrari's 2015-2025 financial filings. The model treats the BEV rollout as a transition period, marked by rising BEV mix and margin pressure, followed by a stabilization period at steady-state luxury margins.
 
+                            * Valuation: Discounts projected free cash flow to the firm using a WACC built from CAPM (beta, market risk premium, risk-free rate) and a terminal growth rate, producing an intrinsic value per share.
+
+                            * Stress testing: Sensitizes the valuation to changes in EBIT margin, beta, terminal growth, and WACC, showing how much the overvaluation conclusion depends on assumptions about brand durability.
+                            
                   </p>
               </section>
 
