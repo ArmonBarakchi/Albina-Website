@@ -7,35 +7,23 @@ const About = () => {
       <h2>About Me</h2>
         <div className="about-content">
             <p>
-                I’m a quantitative finance graduate student at UC San Diego focused on how geopolitical developments translate into market risk and investment opportunity. My interests are centered in emerging markets across Eastern Europe and Central Asia, where macroeconomic forces and political dynamics continue to clash in our modern day.
+              I'm a quantitative finance candidate with a background in behavioral research, investor communications, and crisis response. I enjoy building rigorous, well-tested valuation models and using AI tools to make investment research faster and sharper. My focus sits at the intersection of quantitative discipline and genuine curiosity about why people and markets behave the way they do.
             </p>
             <p>
-                My work focuses on turning geopolitical analysis into economic insight. I use financial modeling,
-                statistical methods, and data-driven tools to analyze how shifts in policy, conflict, and global supply
-                chains impact markets — particularly in areas like currency risk and cross-border capital flows.
-                </p>
+              I completed my undergraduate degree at UC San Diego with a B.S. in Business Economics and a minor in Psychology, and I'm currently pursuing a Master of Quantitative Finance at UCSD's Rady School of Management (graduating in December of 2026) while working as an Investment Content Analyst at StepStone Group. 
+              The psychology background gives me an edge as a finance analyst; it taught me to look beyond numbers and surface-level statements. Coursework in econometrics, financial modeling, and machine learning has expanded my technical skillset. Working as an EMT has prepared me to make sound judgments quickly with incomplete information, a skill that transfers directly to reading a market in motion. 
+              Research has taught me to distrust my first conclusion until I've tested it against the data.                
+              </p>
                 <p>
-                    Simultaneously, I see finance as fundamentally a human discipline. My interest in behavioral
-                    economics is shaped by academic research but stems from my experience working across cultures and in
-                    high-pressure, people-centered environments. Growing up between countries and spending time abroad,
-                    I’ve become deeply interested in how individuals and systems respond to uncertainty, change, and
-                    incentives.
-                    </p>
+                  Some of my favorite things to work on include stress-testing a valuation until I find where it breaks —  whether that's building a DCF for Ferrari that argues against the market consensus or using NLP to check whether a company's SEC filings say something different from what it tells investors on an earnings call. 
+                  I'm drawn to the places where finance stops being purely quantitative: behavioral biases in decision-making, the way geopolitics and policy quietly reprice risk, and the moments when models, while technically correct, are not enough. 
+                  Lately, I've also been pairing that rigor with AI tooling, building a due diligence pipeline that cuts analyst review time by over 85% without cutting corners on the analysis itself.                    
+                  </p>
                     <p>
-                        Alongside my technical background, I bring strong interpersonal and communication skills. I
-                        value
-                        working across perspectives and translating complex analysis into clear, actionable narratives
-                        in
-                        both collaborative teams and investor-facing settings.
-                        </p>
-                        <p>
-                            Fluent in Armenian and Russian and open to relocating internationally, I am seeking
-                            full-time
-                            opportunities in emerging markets, macro strategy, and risk analysis where I can bridge
-                            financial
-                            analysis with geopolitical insight.
+                      Outside of finance, I dance, kickbox, write, read, and travel every chance I get. I speak Armenian and Russian fluently and Spanish proficiently, and I'm especially interested in emerging markets across Eastern Europe and Central Asia, fueled by my heritage and cultural background. 
+                      I'm currently exploring full-time opportunities across private equity, investment banking, consulting, and risk management, particularly roles where currency hedging, behavioral finance, or the intersection of finance and politics come into play.                        
+                      </p>
 
-                        </p>
 
         </div>
     </section>
