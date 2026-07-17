@@ -21,12 +21,11 @@ const FERRARI = () => {
               <section className="project-section">
                   <h2>Overview</h2>
                   <p>
-                    This project presents a full-stack autonomous quadrotor navigation system that solves the problem of safe waypoint navigation in unknown, obstacle-rich environments using only onboard sensing. The drone discovers them online through a simulated spinning LiDAR and must navigate safely in real time.
+                        Ferrari trades at a premium few automakers can match. The auto industry's shift toward zero-emission vehicles threatens the source of that premium. This project asks whether Ferrari's brand can survive the transition intact, or whether electrification will standardize performance and weaken the emotional differentiation behind its pricing power. 
+                        
+                        The analysis treats Ferrari less as a car manufacturer and more as a scarcity-driven luxury house, following Damodaran's view that its value rests on styling, speed, story, and scarcity. I built a 10-year discounted cash flow valuation to test this thesis with numbers.
 
-Four subsystems are integrated into a layered pipeline running at 500 Hz. A Multiplicative Unscented Kalman Filter on SE(3) fuses noisy IMU and GPS measurements to estimate the drone's position, velocity, attitude, and sensor biases. A simulated 648-ray LiDAR builds a local obstacle map online using MuJoCo raycasting. Real-Time Adaptive A* (RTAA*) replans a collision-free path at 5 Hz using only the current LiDAR map, with no global map required. A Control Barrier Function safety filter runs as a quadratic program at every control step, formally guaranteeing the drone remains outside all detected obstacle safety radii regardless of planning approximation or estimation error.
-
-The result is a complete autonomous navigation stack. The system is validated across four qualitatively distinct maps — a narrow corridor, a dense column forest, a sequence of gate frames, and a rising spiral — demonstrating that the planner and safety filter are both necessary and complementary: RTAA* resolves the local minima that defeat CBF-only navigation, while the CBF catches the safety violations that slip past the planner.
-
+                        The base case values Ferrari's stock well below its March 2026 trading price, a downside of roughly 27%, and supports a short recommendation. A counterargument follows: slowing global EV adoption may give the brand more time than the base case assumes.
 
                   </p>
               </section>
@@ -34,7 +33,7 @@ The result is a complete autonomous navigation stack. The system is validated ac
               <section className="project-section">
                   <h2>How It Works</h2>
                   <p>
-                        Armon's the best boyfriend ever. This project presents a full-stack autonomous quadrotor navigation system that solves the problem of safe waypoint navigation in unknown, obstacle-rich environments using only onboard sensing. The drone discovers them online through a simulated spinning LiDAR and must navigate safely in real time.
+                        Armon's the best boyfriendThis project presents a full-stack autonomous quadrotor navigation system that solves the problem of safe waypoint navigation in unknown, obstacle-rich environments using only onboard sensing. The drone discovers them online through a simulated spinning LiDAR and must navigate safely in real time.
 
                         Four subsystems are integrated into a layered pipeline running at 500 Hz. A Multiplicative Unscented Kalman Filter on SE(3) fuses noisy IMU and GPS measurements to estimate the drone's position, velocity, attitude, and sensor biases. A simulated 648-ray LiDAR builds a local obstacle map online using MuJoCo raycasting. Real-Time Adaptive A* (RTAA*) replans a collision-free path at 5 Hz using only the current LiDAR map, with no global map required. A Control Barrier Function safety filter runs as a quadratic program at every control step, formally guaranteeing the drone remains outside all detected obstacle safety radii regardless of planning approximation or estimation error.
 
