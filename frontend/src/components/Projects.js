@@ -11,7 +11,7 @@ const Projects = () => {
 
           <div className="project-card">
             <div className="project-info">
-              <h2>Ferrari Evauluation</h2>
+              <h2>Ferrari Evaluation</h2>
               <p> Equity research project evaluating Ferrari N.V. (RACE) during the BEV transition using a 10-year FCFF
                 DCF model, WACC analysis, and valuation sensitivity testing.</p>
               <a className="read-more" href="/project/ferrari">Read More →</a>
@@ -28,7 +28,7 @@ const Projects = () => {
 
           <div className="project-card">
             <div className="project-info">
-              <h2>Nvidia Geopolitical Risk Analysis</h2>
+              <h2>NVIDIA Geopolitical Risk Analysis</h2>
               <p> NLP and supply-chain analysis of NVIDIA's Taiwan dependence using SEC filings, earnings calls, OECD
                 ICIO data, and semiconductor industry datasets. </p>
               <a className="read-more" href="/project/nvidia">Read More →</a>
